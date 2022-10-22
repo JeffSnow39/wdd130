@@ -31,23 +31,23 @@ body {
 }
 
 header {
-    background-color: #66BCF1;
+    background-color: #1075CE;
 }
 
 nav a:hover {
-    background-color: #66BCF1;
+    background-color: #FFDF27;
 }
 
 .book, .join {
-    background-color: #66BCF1;
+    background-color: #FFDF27;
 }
 
 .book:hover, .join:hover {
-    background-color: #66BCF1;
+    background-color: #FFDF27;
 }
 
 #background {
-    background-color: #66BCF1;
+    background-color: #1075CE;
 }
 
 .msg {
@@ -55,7 +55,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: #66BCF1;
+    background-color: #1075CE;
 }
 
 
@@ -64,11 +64,11 @@ nav a {
 }
 
 nav a:hover {
-    color: green;
+    color: black;
 }
 
 .home-title {
-    color: blue;
+    color: black;
 }
 
 h4 {
@@ -76,31 +76,31 @@ h4 {
 }
 
 .book, .join {
-    color: red;
+    color: black;
 }
 
 .book:hover, .join:hover {
-    color: orange;
+    color: black;
 }
 
 .msg h2 {
-    color: red;
+    color: black;
 }
 
 .msg p {
-    color: white;
+    color: black;
 }
 
 footer {
-    color: yellow;
+    color: black;
 }
 
 footer a {
-    color: purple;
+    color: black;
 }
 
 footer a:hover {
-    color: green;
+    color: black;
 }
 
 
@@ -122,4 +122,102 @@ footer a {
 
 .logo {
     width: 80px;
+}
+
+
+
+
+
+
+
+.home-title {
+    font-family: 'Rubik Dirt', '', ''; 
+    font-size: 2em;
+}
+
+.book, .join {
+    font-size: 18px;
+}
+
+.msg p {
+    line-height: .8em;
+}
+
+
+msg {
+    line-height: 1.5em;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+#logo_link {
+    padding-top: 5px;
+}
+
+nav a {
+    padding: 35px;
+}
+
+.book, .join {
+   padding: 15px 30px;
+}
+
+.icon {
+   padding-top: 10px;
+}
+
+.msg {
+    padding: 35px;
+}
+
+.msg p {
+   padding-bottom: 15px;
+}
+
+footer {
+   padding: 25px 50px;
+}
+
+footer .social img {
+   padding-top: 15px;
+}
+
+
+.home-title {
+   margin-top: 10px;
+}
+
+.book, .join {
+   margin-top: 50px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+   margin: 200px 0;
+}
+
+footer {
+   margin-top: 200px;
+}
+
+
+.book, .join {
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid #1075CE;
+
+}
+
+main section img {
+    box-sizing: border-box;
 }
