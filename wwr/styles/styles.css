@@ -131,8 +131,13 @@ footer a {
 
 
 .home-title {
-    font-family: 'Rubik Dirt', '', ''; 
+    font-family: 'Rubik Dirt', 'Arial', 'sans-serif'; 
     font-size: 2em;
+}
+
+/* is supposed to be the paragraph font */
+body {
+    font-family: 'Roboto', 'Inner Tilt', 'sans-serif';
 }
 
 .book, .join {
