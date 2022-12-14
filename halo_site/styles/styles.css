@@ -430,6 +430,12 @@ img#hero-img {
     transform: scale(1.1);
 }
 
+.alien .card-img {
+    border: 10px solid #1F2041;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #4B3F72;
+}
+
 .msg {
     background-color: #66BCF1;
     padding: 35px;
@@ -515,4 +521,14 @@ footer {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #24A310;
+}
+
+
+
+.alien .dropbtn {
+    background-color: #1F2041;
+}
+
+.alien .dropdown:hover .dropbtn {
+    background-color: #4B3F72;
 }
