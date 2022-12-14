@@ -66,18 +66,18 @@ footer {
 
 
 nav a {
-    color: black;
+    color: white;
 }
 
 nav a:hover {
-    color: black;
+    color: white;
 }
 
 .home-title {
     color: white;
 }
 
-h4 {
+h4, h1, h2, p {
     color: white;
 }
 
